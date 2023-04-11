@@ -1,0 +1,69 @@
+** start of undefined **
+
+<!doctype html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta content = "width = device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "styles.css">
+<title> Alfredo's freecodecamp survery form</title>
+</head>
+
+<body>
+<h1 id = "title">freeCodeCamp Survey Form</h1>
+<p id = "description">Thank you for taking the time to help us improve the platform</p>
+
+<form id = "survey-form">
+
+<fieldset>
+<label id = "name-label">Name:<input type = "text" id = "name" placeholder = "Enter Your Name" class = "block" required></label>
+<label id = "email-label">Email:<input type = "email" id = "email" placeholder = "Enter Your Email" class = "block" required></label>
+<label id = "number-label">Number:<input type = "number" id = "number" min = "0" max = "100" placeholder = "Enter a Number" class = "block"></label>
+<label>Which option best describes your current role?
+<select id = "dropdown" class = "block">
+<option>Full-time employed</option>
+<option>Part-time employed</option>
+<option>Student</option>
+<option>Unemployed</option>
+</select>
+</fieldset>
+
+<fieldset>
+<label>Would you recommend freeCodeCamp to a friend?</label>
+<label class = "block"><input type = "radio" name = "recommendation" class = "inline" value = "yes">Yes</label>
+<input type = "radio" name = "recommendation" class = "inline" value = "no">No
+</fieldset>
+
+<fieldset>
+<label class = "block">What would you like to see improved?</label>
+<label class = "block"><input type = "checkbox" value = "More projects" class = "inline">More Projects</label>
+<label class = "block"><input type = "checkbox" class = "inline" value = "More certifications">More Cerifications</label>
+<label class = "block"><input type = "checkbox" value = "Data Visualization" class = "inline">Data Visualization</label>
+<label><input type = "checkbox" value = "Videos" class = "inline">Videos</label>
+</fieldset>
+
+<fieldset>
+<label>Any comments or suggestions?
+  <textarea></textarea>
+</label>
+</fieldset>
+<input type = "submit" id = "submit">
+
+</form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1, p {text-align: center; margin: 1em auto; color: white}
+body {color: white;background-image: url(https://www.pitara.com/media/armored-rider-lance-horse.jpg)}
+form {max-width: 500px; min-width: 300px; margin: 0 auto}
+fieldset {border: 0; margin: 20px 0}
+input, textarea, select {width: 100%; margin-bottom: 10px}
+.block {display: block; width: 100%}
+.inline {width: unset; vertical-align: middle; margin-right: 0.5em}
+
+** end of undefined **
+
